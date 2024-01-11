@@ -11,7 +11,7 @@
 
 <body>
     Top Controller!!
-    <?= $sampleValue // 追加 ?>
+    {{ $sampleValue ?? '' }}
 </body>
 
 </html>
