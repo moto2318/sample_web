@@ -11,7 +11,7 @@ class TopController extends Controller
     {
         $sampleValue = "sample テキストです。";
 
-        
+        // 参照
         $records = DB::connection('mysql')->select("select * from items");
         $name = $records[0]->name; // dd の処理を削除するため、$name 変数に代入する内容へ変更
 
